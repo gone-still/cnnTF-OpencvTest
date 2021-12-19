@@ -230,8 +230,8 @@ else:
 
 print("Testing Model...")
 
-# Read the rose image
-img = cv2.imread(outputPath + "sunflower.jpg")
+# Read the test image
+img = cv2.imread("sunflower.jpg")
 
 # Resize the image to the size you trained on.
 imgr = cv2.resize(img, (224, 224))
